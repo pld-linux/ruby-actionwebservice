@@ -2,6 +2,7 @@
 %define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"], "system")')
 %define	ruby_version	%(ruby -r rbconfig -e 'print Config::CONFIG["ruby_version"]')
 Summary:	Web Services libraries for Ruby on Rails
+Summary(pl):	Biblioteki us³ug WWW dla Ruby on Rails
 Name:		ruby-ActionWebService
 %define tarname actionwebservice
 Version:	0.6.0
@@ -17,7 +18,10 @@ Requires:	ruby
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Web Service libraries for Ruby on Rails
+Web Service libraries for Ruby on Rails.
+
+%description -l pl
+Biblioteki us³ug WWW dla Ruby on Rails.
 
 %prep
 %setup -q -n %{tarname}-%{version}
