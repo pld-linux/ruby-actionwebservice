@@ -5,12 +5,12 @@ Summary:	Web Services libraries for Ruby on Rails
 Summary(pl):	Biblioteki us³ug WWW dla Ruby on Rails
 Name:		ruby-ActionWebService
 %define tarname actionwebservice
-Version:	0.8.0
+Version:	0.8.1
 Release:	1
 License:	Ruby-alike
 Group:		Development/Languages
-Source0:	http://rubyforge.org/frs/download.php/5120/%{tarname}-%{version}.tgz
-# Source0-md5:	13598092b58ac3ef927838a28af8f5d8
+Source0:	http://rubyforge.org/frs/download.php/5173/%{tarname}-%{version}.tgz
+# Source0-md5:	293b2b7c8eded4c1bb49c50210530a23
 URL:		http://www.rubyonrails.com/
 BuildRequires:	ruby
 Requires:	ruby
