@@ -9,9 +9,9 @@ Group:		Development/Languages
 Source0:	http://rubyforge.org/frs/download.php/6578/%{tarname}-%{version}.tgz
 # Source0-md5:	56d75b6e8b8cc5eee38446c56888f16f
 URL:		http://www.rubyonrails.com/
-BuildRequires:	rpmbuild(macros) >= 1.263
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
-Requires:	ruby-modules
+%ruby_mod_ver_requires_eq
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
