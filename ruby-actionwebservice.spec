@@ -1,5 +1,5 @@
 Summary:	Web Services libraries for Ruby on Rails
-Summary(pl):	Biblioteki us≥ug WWW dla Ruby on Rails
+Summary(pl.UTF-8):   Biblioteki us≈Çug WWW dla Ruby on Rails
 Name:		ruby-ActionWebService
 %define tarname actionwebservice
 Version:	1.1.6
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Web Service libraries for Ruby on Rails.
 
-%description -l pl
-Biblioteki us≥ug WWW dla Ruby on Rails.
+%description -l pl.UTF-8
+Biblioteki us≈Çug WWW dla Ruby on Rails.
 
 %prep
 %setup -q -n %{tarname}-%{version}
