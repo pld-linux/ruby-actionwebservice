@@ -1,5 +1,5 @@
 Summary:	Web Services libraries for Ruby on Rails
-Summary(pl.UTF-8):   Biblioteki usług WWW dla Ruby on Rails
+Summary(pl.UTF-8):	Biblioteki usług WWW dla Ruby on Rails
 Name:		ruby-ActionWebService
 %define tarname actionwebservice
 Version:	1.1.6
