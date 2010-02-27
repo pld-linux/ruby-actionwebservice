@@ -1,17 +1,18 @@
+%define pkgname actionwebservice
 Summary:	Web Services libraries for Ruby on Rails
 Summary(pl.UTF-8):	Biblioteki usług WWW dla Ruby on Rails
-Name:		ruby-ActionWebService
-%define tarname actionwebservice
+Name:		ruby-%{pkgname}
 Version:	1.1.6
 Release:	1
 License:	Ruby-alike
 Group:		Development/Languages
-Source0:	http://rubyforge.org/frs/download.php/12320/%{tarname}-%{version}.tgz
+Source0:	http://rubyforge.org/frs/download.php/12320/%{pkgname}-%{version}.tgz
 # Source0-md5:	1edfe7484929a54e0cd17e2b43fdbd35
 URL:		http://www.rubyonrails.com/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
 %{?ruby_mod_ver_requires_eq}
+Obsoletes:	ruby-ActionWebService
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -22,7 +23,7 @@ Web Service libraries for Ruby on Rails.
 Biblioteki usług WWW dla Ruby on Rails.
 
 %prep
-%setup -q -n %{tarname}-%{version}
+%setup -q -n %{pkgname}-%{version}
 
 %build
 rdoc --ri --op ri lib
